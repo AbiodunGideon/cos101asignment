@@ -1,0 +1,60 @@
+# Assignment
+# post code in github
+
+# add more physic / maths operations
+
+# if user enters "a" call the first function
+
+# if user enters "e" cal out the fifth function
+
+# BHU/24/04/09/0052 Abiodun Gideon Abolurin
+
+def a():
+    mass = int(input('enter the mass:'))
+    gravity = int(input('10:'))
+    height =  int(input('enter the height:'))
+    kienetic_energy = mass*gravity*height
+    print(kienetic_energy)
+
+def b():
+    current = int(input('enter the current:'))
+    resistance = int(input('enter the resistance:'))
+    voltage = current*resistance
+    print(voltage)
+
+def c():
+    force = int(input('enter the force:'))
+    distance = int(input('enter your distance:'))
+    work_done = force*distances
+    print(work_done)
+
+def d():
+    displacement = int(input('enter the displacement:'))
+    time = int(input('enter your time:'))
+    velocity = displacement/time
+    print(velocity)
+
+def e():
+    mass = int(input('enter the mass'))
+    velocity= int(input('enter the velocity'))
+    radius = int(input('enter the raduis'))
+    centripetal_force =mass*(velocity^2)/radius
+    print(centripetal_force)
+
+def main():
+        user_choice = input('what operation would you like to perform')
+        if user_choice == "a":
+            a()
+        elif user_choice == "b":
+            b()
+        elif user_choice == "c":
+            c()
+        elif user_choice == "d":
+            d()
+        elif user_choice == "e":
+            e()
+        else:
+            print("invalid input")
+if  __name__ == '__main__':
+        main()
+
