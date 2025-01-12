@@ -13,8 +13,8 @@ def a():
     mass = int(input('enter the mass:'))
     gravity = int(input('10:'))
     height =  int(input('enter the height:'))
-    kienetic_energy = mass*gravity*height
-    print(kienetic_energy)
+    kinetic_energy = mass*gravity*height
+    print(kinetic_energy)
 
 def b():
     current = int(input('enter the current:'))
@@ -37,7 +37,7 @@ def d():
 def e():
     mass = int(input('enter the mass'))
     velocity= int(input('enter the velocity'))
-    radius = int(input('enter the raduis'))
+    radius = int(input('enter the radius'))
     centripetal_force =mass*(velocity^2)/radius
     print(centripetal_force)
 
